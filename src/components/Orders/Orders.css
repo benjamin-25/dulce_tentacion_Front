@@ -1,0 +1,21 @@
+.orders-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.order-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(255, 145, 193, 0.2) !important;
+}
+
+@media (max-width: 600px) {
+    .orders-container {
+        padding: 20px;
+    }
+}

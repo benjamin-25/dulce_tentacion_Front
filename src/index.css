@@ -1,9 +1,9 @@
 :root {
-  --primary-pink: #FF91C1;
-  --secondary-blue: #79C8E7;
-  --accent-yellow: #FFF23E;
-  --dark-pink: #FF4081;
-  --white: #FFFFFF;
+  --primary-pink: #ff91c1;
+  --secondary-blue: #79c8e7;
+  --accent-yellow: #fff23e;
+  --dark-pink: #ff4081;
+  --white: #ffffff;
   --glass: rgba(255, 255, 255, 0.25);
   --glass-border: rgba(255, 255, 255, 0.4);
 }
@@ -15,8 +15,13 @@
 }
 
 body {
-  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
-  background: linear-gradient(135deg, #fce4ec 0%, #e1f5fe 100%);
+  font-family:
+    "Outfit",
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background: linear-gradient(135deg, #ffb7cf 0%, #9fd6f0 100%);
   min-height: 100vh;
   color: #333;
 }
